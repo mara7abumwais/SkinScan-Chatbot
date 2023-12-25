@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import OpenAI from 'openai';
-const cors = require('cors');
+import cors from 'cors';
 const app = express();
 dotenv.config();
 
